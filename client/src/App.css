@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+ 
+.container {
+  background: #000;
+  height: 100vh;
+  overflow:  hidden;
+  display: flex;
+
+}
+
+img {
+  width: 30%;
+}
+
+
+.wrapper {
+  background-color: #1cb3c3;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #60637c;
+  margin: 40px 0;
+
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #60637c;
+  border: 1px solid #60637c;
+  color: #fff;
+  font-size: 20px;
+  margin: 30px 0;
+}
